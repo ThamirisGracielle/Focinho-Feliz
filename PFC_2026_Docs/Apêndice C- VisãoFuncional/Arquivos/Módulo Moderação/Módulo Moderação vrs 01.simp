@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.70" multi-file="no" uid="simpb8ce6a88343a494d862a2daa3624a4c6" creation-date="03/14/2026 20:09:55">
+  <meta>
+    <name>Focinho Feliz - Gestão de Ocorrências</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="system-boundary" type="System Boundary" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="use-case" type="Use Case" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>4</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="system-boundary" type="System Boundary" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="use-case" type="Use Case" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="Dependency" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>14</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>27</value>
+      </counter>
+      <counter>
+        <item-type type-id="include" type="Include" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="Text" />
+        <value>5</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
+        <value>5</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-f9a29802dce54e169e82ef18c9802493" name="" task-id-sequence="0">
+    <working-schedule uid="ws-8e662a38b7c546b9ac32d6df61f026ce" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-26d07f7410984b9c8e08bdb02366e66e" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-bf36693ddcb945c2ab93963dcc793b13" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items>
+    <item id="69648ff42aad436d8c97c24d9498fc32" cid="UC006" type="use-case" name="Informar motivo da denúncia" owner="c70fa7c976664ca09babfaeba6da67df" creation-date="03/14/2026 21:02:49" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="c139fc60f7fe404eaa169ebcf7db6890" cid="INC003" type="include" owner="db2b0dd39f3949f38ba33787411ad974" creation-date="03/14/2026 20:53:15" from="d9e01cd4eb394aa49f12d40f2a4ded74" to="968e5862c76a417282dff315883ef93e" visibility="package">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <stereotype-instances>
+        <stereotype id="c139fc60f7fe404eaa169ebcf7db6890_include_c" type="include" creation-date="03/14/2026 20:53:15" ref="" />
+      </stereotype-instances>
+    </item>
+    <item id="08bb17e80af44ca2a5422dc22454cbbb" cid="PROP025" type="property" owner="77b0fffcc7f24050ad126ee929f18dbf" creation-date="03/14/2026 21:11:23" visibility="private" />
+    <item id="c759ce7c2eda42e2a5501774b9935a31" cid="UC002" type="use-case" name="Visualizar ocorrências no mapa" owner="396a69c1cd6e4b2aab140bc16207a32f" creation-date="03/14/2026 20:34:06" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="4d091719ffa1423e8fc91c7c8edbb383" cid="PROP021" type="property" owner="62f00b4ef2d746239ac7ef12a24446b6" creation-date="03/14/2026 20:52:58" visibility="private" />
+    <item id="cdd7592a5d7849f58c6c384e9917ed19" cid="UC001" type="use-case" name="Listar minhas ocorrências" owner="aa7504306add4cd1be2681efc2676bc6" creation-date="03/14/2026 20:13:43" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="425d5596a72d45d2ad195a6253055790" cid="INC004" type="include" owner="db2b0dd39f3949f38ba33787411ad974" creation-date="03/14/2026 20:54:36" from="606b3f0fbd3f4540814ae3755ba47fb0" to="5db3517c516840c8ad597fe34e08c23a" visibility="package">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <stereotype-instances>
+        <stereotype id="425d5596a72d45d2ad195a6253055790_include_c" type="include" creation-date="03/14/2026 20:54:36" ref="" />
+      </stereotype-instances>
+    </item>
+    <item id="10a4ac49b6db46c5bfc108bca3ee37f4" cid="PROP011" type="property" owner="871376477fdc4b1ea4cd86fa24adb2cd" creator="" creation-date="03/14/2026 20:20:40" visibility="private" />
+    <item id="b0e8973b05844c8085afebe8c15aea6a" cid="UC001" type="use-case" name="Visualizar detalhes da ocorrência" owner="aa7504306add4cd1be2681efc2676bc6" creation-date="03/14/2026 20:13:43" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="870338af6fbe4ddb80b383f0dd12819c" cid="PROP006" type="property" owner="cba86398c8054e14afce2b46450d95e8" creator="" creation-date="03/14/2026 20:19:18" visibility="private" />
+    <item id="968e5862c76a417282dff315883ef93e" cid="UC004" type="use-case" name="Mostrar marcadores de ocorrências" owner="db2b0dd39f3949f38ba33787411ad974" creation-date="03/14/2026 20:50:46" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="367722babe2a49578eeb20e62b0c8740" cid="UC001" type="use-case" name="Excluir ocorrência" owner="aa7504306add4cd1be2681efc2676bc6" creation-date="03/14/2026 20:13:43" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="5db3517c516840c8ad597fe34e08c23a" cid="UC005" type="use-case" name="Atualizar ocorrências conforme região" owner="db2b0dd39f3949f38ba33787411ad974" creation-date="03/14/2026 20:52:04" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="daf09ecac2ba4ad491aadb306385e90c" cid="UC003" type="use-case" name="consulta espacial" owner="396a69c1cd6e4b2aab140bc16207a32f" creation-date="03/14/2026 20:40:53" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="62f00b4ef2d746239ac7ef12a24446b6" cid="REL011" type="relationship" owner="db2b0dd39f3949f38ba33787411ad974" creation-date="03/14/2026 20:52:58" from="594a56dec8544f2d808ae77b3d50fe6b" to="db2b0dd39f3949f38ba33787411ad974" visibility="package">
+      <owned-items />
+      <relation from="594a56dec8544f2d808ae77b3d50fe6b" to="db2b0dd39f3949f38ba33787411ad974" derived="false">
+        <start-role id="umlar-4be0b969-77a3-4cf7-9da2-3249769f65ee" name="" navigability="" association-type="association" visibility="private" property-ref="4d091719ffa1423e8fc91c7c8edbb383" />
+        <end-role id="umlar-6809e38e-8240-4977-8bff-560b1a4a1898" name="" navigability="" association-type="association" visibility="private" property-ref="4484d19333854f36a9258f2c63dd19b4" />
+      </relation>
+    </item>
+    <item id="606b3f0fbd3f4540814ae3755ba47fb0" cid="UC004" type="use-case" name="Navegar no mapa" owner="db2b0dd39f3949f38ba33787411ad974" creation-date="03/14/2026 20:50:46" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="d63b5f32893246e2b9d951134800e995" cid="PROP004" type="property" owner="bd6935fe9e1b4255b9e3726b0abc876a" creator="" creation-date="03/14/2026 20:19:11" visibility="private" />
+    <item id="08ea8621aef843ff8d977a82edb8a339" cid="PROP016" type="property" owner="47519cb74e424a1293cf22bac139390d" creation-date="03/14/2026 20:37:42" visibility="private" />
+    <item id="fac481a2143a4ef591252a637362b2bf" cid="PROP024" type="property" owner="6be161c181444bdd9621fa2efd0c1653" creation-date="03/14/2026 20:54:10" visibility="private" />
+    <item id="500085754318434081595ac36d7e3675" cid="PROP020" type="property" owner="9f846098b8774e248195253b4d69a6bd" creation-date="03/14/2026 20:52:53" visibility="private" />
+    <item id="94b9994c393c4bf7ac11aa15c4128981" cid="UC002" type="use-case" name="Buscar ocorrências próximas" owner="396a69c1cd6e4b2aab140bc16207a32f" creation-date="03/14/2026 20:34:06" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="4484d19333854f36a9258f2c63dd19b4" cid="PROP022" type="property" owner="62f00b4ef2d746239ac7ef12a24446b6" creation-date="03/14/2026 20:52:58" visibility="private" />
+    <item id="d9e01cd4eb394aa49f12d40f2a4ded74" cid="UC004" type="use-case" name="Exibir mapa interativo" owner="db2b0dd39f3949f38ba33787411ad974" creation-date="03/14/2026 20:50:46" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="ba060a15ce734ca793925e81ea27e169" cid="PROP014" type="property" owner="e696fe4e8c394faa8a22a34dd9dde394" creation-date="03/14/2026 20:37:37" visibility="private" />
+    <item id="b30a31d07a2c48bbbe9aaec24e0b8115" cid="PROP003" type="property" owner="bd6935fe9e1b4255b9e3726b0abc876a" creator="" creation-date="03/14/2026 20:19:11" visibility="private" />
+    <item id="d466e797404348abb5d4d2da912cdd8f" cid="UC001" type="use-case" name="Registrar Ocorrência" owner="aa7504306add4cd1be2681efc2676bc6" creator="" creation-date="03/14/2026 20:13:43" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="46c0ace9204e42e89b665adb11bc8c52" cid="PROP015" type="property" owner="47519cb74e424a1293cf22bac139390d" creation-date="03/14/2026 20:37:42" visibility="private" />
+    <item id="a09ce2d051d54956b99be9e50f69f410" cid="PROP026" type="property" owner="77b0fffcc7f24050ad126ee929f18dbf" creation-date="03/14/2026 21:11:23" visibility="private" />
+    <item id="b12d10a551dc468ab2aec78099d78e65" cid="PROP010" type="property" owner="aa43f78427f1443cb4eb61056a088251" creator="" creation-date="03/14/2026 20:19:36" visibility="private" />
+    <item id="a5c9be135c2b4893978aca04b07ac7a7" cid="PROP019" type="property" owner="9f846098b8774e248195253b4d69a6bd" creation-date="03/14/2026 20:52:53" visibility="private" />
+    <item id="ba25b2bfd99a4ce5b191987972cd219a" cid="PROP008" type="property" owner="01c5a75516584ccdbd9585dc982f649f" creator="" creation-date="03/14/2026 20:19:29" visibility="private" />
+    <item id="df59890745a9427cb5922ab853d593af" cid="PROP023" type="property" owner="6be161c181444bdd9621fa2efd0c1653" creation-date="03/14/2026 20:54:10" visibility="private" />
+    <item id="e11083f4a2864a049c7e1c6c35169ff5" cid="PROP005" type="property" owner="cba86398c8054e14afce2b46450d95e8" creator="" creation-date="03/14/2026 20:19:18" visibility="private" />
+    <item id="804244e022c943389f2ffb42cf76ddf1" cid="INC001" type="include" owner="396a69c1cd6e4b2aab140bc16207a32f" creation-date="03/14/2026 20:39:07" from="c759ce7c2eda42e2a5501774b9935a31" to="01e17bcda5a24aac9ffff6236272649e" visibility="package">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <stereotype-instances>
+        <stereotype id="804244e022c943389f2ffb42cf76ddf1_include_c" type="include" creation-date="03/14/2026 20:39:07" ref="" />
+      </stereotype-instances>
+    </item>
+    <item id="f51b0a671eb64a10b43b2baa279720ad" cid="PROP012" type="property" owner="871376477fdc4b1ea4cd86fa24adb2cd" creator="" creation-date="03/14/2026 20:20:40" visibility="private" />
+    <item id="b160e9c2b69f4bf1af75bb5496e37fe8" cid="UC001" type="use-case" name="Editar ocorrência" owner="aa7504306add4cd1be2681efc2676bc6" creation-date="03/14/2026 20:13:43" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="b2f3d3351f324edb8cb3bfb351a8177b" cid="PROP007" type="property" owner="01c5a75516584ccdbd9585dc982f649f" creator="" creation-date="03/14/2026 20:19:29" visibility="private" />
+    <item id="01e17bcda5a24aac9ffff6236272649e" cid="UC002" type="use-case" name="Filtrar ocorrências pela área visível do mapa" owner="396a69c1cd6e4b2aab140bc16207a32f" creation-date="03/14/2026 20:34:06" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+    <item id="f4e0bc9922a847b19d366095cee12964" cid="INC002" type="include" owner="396a69c1cd6e4b2aab140bc16207a32f" creation-date="03/14/2026 20:41:20" from="94b9994c393c4bf7ac11aa15c4128981" to="daf09ecac2ba4ad491aadb306385e90c" visibility="package">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <stereotype-instances>
+        <stereotype id="f4e0bc9922a847b19d366095cee12964_include_c" type="include" creation-date="03/14/2026 20:41:20" ref="" />
+      </stereotype-instances>
+    </item>
+    <item id="a4a6e4a3b8ea4852a6cbefb60c632961" cid="PROP017" type="property" owner="cdcdb3605bd5455da191dcfc9884dc0c" creation-date="03/14/2026 20:38:07" visibility="private" />
+    <item id="eceb9efdc42c4d54a284fc425d4b6c43" cid="PROP018" type="property" owner="cdcdb3605bd5455da191dcfc9884dc0c" creation-date="03/14/2026 20:38:07" visibility="private" />
+    <item id="1e761ad7178e4576a0f6e5c8b9ad9025" cid="PROP013" type="property" owner="e696fe4e8c394faa8a22a34dd9dde394" creation-date="03/14/2026 20:37:37" visibility="private" />
+    <item id="eba9c647f56643c4be83243b8c75cf03" cid="PROP009" type="property" owner="aa43f78427f1443cb4eb61056a088251" creator="" creation-date="03/14/2026 20:19:36" visibility="private" />
+    <item id="929d020cac8f456ba14bdb6289ec51fb" cid="UC002" type="use-case" name="Buscar ocorrências por região" owner="396a69c1cd6e4b2aab140bc16207a32f" creation-date="03/14/2026 20:34:06" visibility="undefined">
+      <use-case>
+        <stakeholders />
+        <special-requirements />
+        <issues />
+      </use-case>
+    </item>
+  </items>
+  <models>
+    <model id="p250403c71ae0414b931dcd8d5169a7ec_647366271" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>03/14/2026 20:10:18</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="p6f4b5ce8fd5b49db8c69c3ef24b7d4e0_492206405" name="UseCaseDiagram5" order-index="4" overview-order-index="2" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/14/2026 21:02:15</creation-date>
+          <change-date>03/14/2026 21:11:23</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="10eb30a7de4841b58662d316337bcdd9" cid="INC005" type="include" owner="c70fa7c976664ca09babfaeba6da67df" creation-date="03/14/2026 21:04:21" from="ecd74289f787440b95e275aa6299188e" to="69648ff42aad436d8c97c24d9498fc32" visibility="package">
+            <stereotypes>
+              <stereotype name="include" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="10eb30a7de4841b58662d316337bcdd9_include_c" type="include" creation-date="03/14/2026 21:04:21" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="bc02bcc14ba8410686a85ffe95891965" cid="AC004" type="actor" name="usuário" creation-date="03/14/2026 21:02:43" visibility="undefined" />
+          <item id="d5dae3990dff4463885d1ea6d89b3d57" cid="ELEM004" type="text" name="Element2" creation-date="03/14/2026 21:03:28">
+            <drawing-text>
+              <text>Denunciar ocorrência</text>
+            </drawing-text>
+          </item>
+          <item id="c70fa7c976664ca09babfaeba6da67df" cid="SYS004" type="system-boundary" name="Focinho Feliz - Módulo Moderação" creation-date="03/14/2026 21:02:20">
+            <owned-items />
+          </item>
+          <item id="77b0fffcc7f24050ad126ee929f18dbf" cid="REL013" type="relationship" creation-date="03/14/2026 21:11:23" from="bc02bcc14ba8410686a85ffe95891965" to="ecd74289f787440b95e275aa6299188e" visibility="package">
+            <owned-items />
+            <relation from="bc02bcc14ba8410686a85ffe95891965" to="ecd74289f787440b95e275aa6299188e" derived="false">
+              <start-role id="umlar-4e565820-e762-47f0-8620-b04d66e7c5cc" name="" navigability="" association-type="association" visibility="private" property-ref="08bb17e80af44ca2a5422dc22454cbbb" />
+              <end-role id="umlar-5b0c47f3-af0a-4f53-b131-d30fb0f90c16" name="" navigability="" association-type="association" visibility="private" property-ref="a09ce2d051d54956b99be9e50f69f410" />
+            </relation>
+          </item>
+          <item id="ecd74289f787440b95e275aa6299188e" cid="UC006" type="use-case" name="Denunciar ocorrência" owner="c70fa7c976664ca09babfaeba6da67df" creation-date="03/14/2026 21:02:49" visibility="undefined">
+            <use-case>
+              <stakeholders />
+              <special-requirements />
+              <issues />
+            </use-case>
+          </item>
+          <item id="87c3de13dae34941a1e7be4eb745da4f" cid="ELEM003" type="text" name="Element1" creation-date="03/14/2026 21:03:26">
+            <drawing-text>
+              <text>Denunciar ocorrência</text>
+            </drawing-text>
+          </item>
+        </abstract-items>
+        <layer id="e5b24db583884e4b8a816d5b3c6a9399" name="Default" visible="true" enabled="true" locked="false">
+          <item id="c70fa7c976664ca09babfaeba6da67df" iid="aed46184a23d484ea1364a7f1d448f13" creation-date="03/14/2026 21:02:20" order-index="0" type="entity">
+            <layout ax="407" ay="59" awidth="300" aheight="400" x="407" y="59" width="300" height="400" expanded="407,59,300,400" collapsed="0,0,0,0" />
+          </item>
+          <item id="bc02bcc14ba8410686a85ffe95891965" iid="ff1870b4f4134f99bdb6f67267ea4354" creation-date="03/14/2026 21:02:43" order-index="1" type="entity">
+            <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="230" ay="173" awidth="50" aheight="100" x="230" y="173" width="50" height="120" />
+            <actor />
+          </item>
+          <item id="ecd74289f787440b95e275aa6299188e" iid="8d5b496275694dac9fa692311df1d753" container="c70fa7c976664ca09babfaeba6da67df" container-iid="aed46184a23d484ea1364a7f1d448f13" creation-date="03/14/2026 21:02:49" order-index="2" type="entity">
+            <layout ax="497" ay="150" awidth="135" aheight="84" x="497" y="150" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="69648ff42aad436d8c97c24d9498fc32" iid="b4a74297224645fbadd7ae6ecc67a7d1" container="c70fa7c976664ca09babfaeba6da67df" container-iid="aed46184a23d484ea1364a7f1d448f13" creation-date="03/14/2026 21:02:49" order-index="0" type="entity">
+            <layout ax="497" ay="307" awidth="135" aheight="84" x="497" y="307" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="10eb30a7de4841b58662d316337bcdd9" iid="1954e6c429464fdfb294865b6b5f3b9e" container="c70fa7c976664ca09babfaeba6da67df" container-iid="aed46184a23d484ea1364a7f1d448f13" creation-date="03/14/2026 21:04:21" order-index="3" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="564" y1="233" x2="564" y2="307" start-border-pos="0.6259259283542633" end-border-pos="0.12407407407407407" start-local-pos="67" end-local-pos="67" name-position="37,-3">
+              <points>
+                <point x="564" y="233" />
+                <point x="564" y="307" />
+              </points>
+            </layout>
+            <relation from="ecd74289f787440b95e275aa6299188e" from-iid="8d5b496275694dac9fa692311df1d753" to="69648ff42aad436d8c97c24d9498fc32" to-iid="b4a74297224645fbadd7ae6ecc67a7d1" />
+          </item>
+          <item id="77b0fffcc7f24050ad126ee929f18dbf" iid="08b9c8db20314a8dab4f324d4f54941f" creation-date="03/14/2026 21:11:23" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="280" y1="204" x2="497" y2="191" start-border-pos="0.3275" end-border-pos="0.8779761904761905" start-local-pos="31" end-local-pos="41" name-position="0,20">
+              <points>
+                <point x="280" y="204" />
+                <point x="497" y="191" />
+              </points>
+            </layout>
+            <relation from="bc02bcc14ba8410686a85ffe95891965" from-iid="ff1870b4f4134f99bdb6f67267ea4354" to="ecd74289f787440b95e275aa6299188e" to-iid="8d5b496275694dac9fa692311df1d753" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
